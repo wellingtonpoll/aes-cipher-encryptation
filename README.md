@@ -7,7 +7,7 @@ The AES Cipher Encryptation is a open-source project written in .NET Core to enc
 By default configurations like, mode CBC, 128 bits crypto key size and Pkcs7 padding.
 There are other modes and paddings to use with this algorithm but they are not implemented. 
 
-<img src="https://ci.appveyor.com/api/projects/status/32r7s2skrgm9ubva?svg=true&passingText=master%20-%20OK" alt="Project Badge">
+[![Build status](https://ci.appveyor.com/api/projects/status/rl2ja69994rt3ei6?svg=true)](https://ci.appveyor.com/project/wellingtonpoll/aes-cipher-encryptation)
 
 ## Give a Star! :star:
 If you liked the project or if AES Cipher Encryptation helped you, please give a star ;)
