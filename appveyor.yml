@@ -1,5 +1,7 @@
 version: 1.0.{build}
-image: Visual Studio 2017
+branches:
+  only:
+  - master
 dotnet_csproj:
   patch: true
   file: '**\*.csproj'
