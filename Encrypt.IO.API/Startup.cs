@@ -1,4 +1,6 @@
 ﻿using Encrypt.IO.API.Configurations;
+using Encrypt.IO.API.Interfaces;
+using Encrypt.IO.API.Services;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
@@ -23,6 +25,8 @@ namespace Encrypt.IO.API
             services.AddOptions();
             services.AddMvc()
                 .SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
+
+            services.AddSingleton<IEncryptationService, EncryptationService>();
 
             services.ConfigureSwagger();
         }
