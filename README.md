@@ -1,4 +1,4 @@
-<img src="https://localhost/Header_Encryption.png" alt="AES Cipher Encryptation"> 
+<img src="https://raw.githubusercontent.com/wellingtonpoll/aes-cipher-encryptation/master/Assets/Header_Encryption.png" alt="AES Cipher Encryptation"> 
 
 
 What is the AES Cipher Encryptation?
