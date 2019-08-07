@@ -16,7 +16,7 @@ namespace Encrypt.IO.API.Configurations
                 {
                     Version = "v1",
                     Title = "AES Cipher Encryptation",
-                    Description = "Encrypt and decrypt AES cipher"
+                    Description = "Encrypt and decrypt AES cipher \r\n By default CBC mode with Pkcs7 padding and 128-bit encryption key(16 characters)."
                 });
                 var xmlFile = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";
                 var xmlPath = Path.Combine(AppContext.BaseDirectory, xmlFile);

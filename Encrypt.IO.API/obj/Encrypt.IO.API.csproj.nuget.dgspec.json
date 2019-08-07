@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/wellington/Mundi Bank/Encrypt.IO/Encrypt.IO.API/Encrypt.IO.API.csproj": {}
+    "/home/wellington/Documents/aes-cipher-encryptation/Encrypt.IO.API/Encrypt.IO.API.csproj": {}
   },
   "projects": {
-    "/home/wellington/Mundi Bank/Encrypt.IO/Encrypt.IO.API/Encrypt.IO.API.csproj": {
+    "/home/wellington/Documents/aes-cipher-encryptation/Encrypt.IO.API/Encrypt.IO.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/wellington/Mundi Bank/Encrypt.IO/Encrypt.IO.API/Encrypt.IO.API.csproj",
+        "projectUniqueName": "/home/wellington/Documents/aes-cipher-encryptation/Encrypt.IO.API/Encrypt.IO.API.csproj",
         "projectName": "Encrypt.IO.API",
-        "projectPath": "/home/wellington/Mundi Bank/Encrypt.IO/Encrypt.IO.API/Encrypt.IO.API.csproj",
+        "projectPath": "/home/wellington/Documents/aes-cipher-encryptation/Encrypt.IO.API/Encrypt.IO.API.csproj",
         "packagesPath": "/home/wellington/.nuget/packages/",
-        "outputPath": "/home/wellington/Mundi Bank/Encrypt.IO/Encrypt.IO.API/obj/",
+        "outputPath": "/home/wellington/Documents/aes-cipher-encryptation/Encrypt.IO.API/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "/usr/share/dotnet/sdk/NuGetFallbackFolder"
@@ -39,6 +39,10 @@
       "frameworks": {
         "netcoreapp2.2": {
           "dependencies": {
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[8.4.0, )"
+            },
             "Microsoft.AspNetCore.App": {
               "suppressParent": "All",
               "target": "Package",

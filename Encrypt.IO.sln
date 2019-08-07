@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.26124.0
 MinimumVisualStudioVersion = 15.0.26124.0
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Encrypt.IO.API", "Encrypt.IO.API\Encrypt.IO.API.csproj", "{73AD82D3-3DC6-4F46-AAF6-D26FA0B0A421}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Encrypt.IO.Test", "Encrypt.IO.Test\Encrypt.IO.Test.csproj", "{286F34E2-F7AB-42DF-8EC1-6377AB67CA1F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +32,17 @@ Global
 		{73AD82D3-3DC6-4F46-AAF6-D26FA0B0A421}.Release|x64.Build.0 = Release|Any CPU
 		{73AD82D3-3DC6-4F46-AAF6-D26FA0B0A421}.Release|x86.ActiveCfg = Release|Any CPU
 		{73AD82D3-3DC6-4F46-AAF6-D26FA0B0A421}.Release|x86.Build.0 = Release|Any CPU
+		{286F34E2-F7AB-42DF-8EC1-6377AB67CA1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{286F34E2-F7AB-42DF-8EC1-6377AB67CA1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{286F34E2-F7AB-42DF-8EC1-6377AB67CA1F}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{286F34E2-F7AB-42DF-8EC1-6377AB67CA1F}.Debug|x64.Build.0 = Debug|Any CPU
+		{286F34E2-F7AB-42DF-8EC1-6377AB67CA1F}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{286F34E2-F7AB-42DF-8EC1-6377AB67CA1F}.Debug|x86.Build.0 = Debug|Any CPU
+		{286F34E2-F7AB-42DF-8EC1-6377AB67CA1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{286F34E2-F7AB-42DF-8EC1-6377AB67CA1F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{286F34E2-F7AB-42DF-8EC1-6377AB67CA1F}.Release|x64.ActiveCfg = Release|Any CPU
+		{286F34E2-F7AB-42DF-8EC1-6377AB67CA1F}.Release|x64.Build.0 = Release|Any CPU
+		{286F34E2-F7AB-42DF-8EC1-6377AB67CA1F}.Release|x86.ActiveCfg = Release|Any CPU
+		{286F34E2-F7AB-42DF-8EC1-6377AB67CA1F}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

@@ -28,3 +28,19 @@
 /home/wellington/Mundi Bank/Encrypt.IO/Encrypt.IO.API/obj/Debug/netcoreapp2.2/Encrypt.IO.API.pdb
 /home/wellington/Mundi Bank/Encrypt.IO/Encrypt.IO.API/bin/Debug/netcoreapp2.2/Encrypt.IO.API.xml
 /home/wellington/Mundi Bank/Encrypt.IO/Encrypt.IO.API/obj/Debug/netcoreapp2.2/Encrypt.IO.API.xml
+/home/wellington/Documents/aes-cipher-encryptation/Encrypt.IO.API/bin/Debug/netcoreapp2.2/Encrypt.IO.API.deps.json
+/home/wellington/Documents/aes-cipher-encryptation/Encrypt.IO.API/bin/Debug/netcoreapp2.2/Encrypt.IO.API.runtimeconfig.json
+/home/wellington/Documents/aes-cipher-encryptation/Encrypt.IO.API/bin/Debug/netcoreapp2.2/Encrypt.IO.API.runtimeconfig.dev.json
+/home/wellington/Documents/aes-cipher-encryptation/Encrypt.IO.API/bin/Debug/netcoreapp2.2/Encrypt.IO.API.dll
+/home/wellington/Documents/aes-cipher-encryptation/Encrypt.IO.API/bin/Debug/netcoreapp2.2/Encrypt.IO.API.pdb
+/home/wellington/Documents/aes-cipher-encryptation/Encrypt.IO.API/bin/Debug/netcoreapp2.2/Encrypt.IO.API.xml
+/home/wellington/Documents/aes-cipher-encryptation/Encrypt.IO.API/obj/Debug/netcoreapp2.2/Encrypt.IO.API.csprojAssemblyReference.cache
+/home/wellington/Documents/aes-cipher-encryptation/Encrypt.IO.API/obj/Debug/netcoreapp2.2/Encrypt.IO.API.csproj.CoreCompileInputs.cache
+/home/wellington/Documents/aes-cipher-encryptation/Encrypt.IO.API/obj/Debug/netcoreapp2.2/Encrypt.IO.API.RazorAssemblyInfo.cache
+/home/wellington/Documents/aes-cipher-encryptation/Encrypt.IO.API/obj/Debug/netcoreapp2.2/Encrypt.IO.API.RazorAssemblyInfo.cs
+/home/wellington/Documents/aes-cipher-encryptation/Encrypt.IO.API/obj/Debug/netcoreapp2.2/Encrypt.IO.API.AssemblyInfoInputs.cache
+/home/wellington/Documents/aes-cipher-encryptation/Encrypt.IO.API/obj/Debug/netcoreapp2.2/Encrypt.IO.API.AssemblyInfo.cs
+/home/wellington/Documents/aes-cipher-encryptation/Encrypt.IO.API/obj/Debug/netcoreapp2.2/Encrypt.IO.API.RazorTargetAssemblyInfo.cache
+/home/wellington/Documents/aes-cipher-encryptation/Encrypt.IO.API/obj/Debug/netcoreapp2.2/Encrypt.IO.API.dll
+/home/wellington/Documents/aes-cipher-encryptation/Encrypt.IO.API/obj/Debug/netcoreapp2.2/Encrypt.IO.API.xml
+/home/wellington/Documents/aes-cipher-encryptation/Encrypt.IO.API/obj/Debug/netcoreapp2.2/Encrypt.IO.API.pdb

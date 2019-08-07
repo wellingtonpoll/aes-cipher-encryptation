@@ -10,7 +10,7 @@ namespace Encrypt.IO.API.Services
 {
     public class EncryptationService : IEncryptationService
     {
-        public string Encrypt(MessageModel model)
+        public MessageModel Encrypt(MessageModel model)
         {
             Log.Information("");
             Log.Information("Starting encryptation...");
@@ -39,10 +39,10 @@ namespace Encrypt.IO.API.Services
 
             jsonCrip = Convert.ToBase64String(encrypted);
             Log.Information($"Encrypted: {jsonCrip}");
-            return jsonCrip;
+            return MessageModel.Factor(jsonCrip);
         }
 
-        public string Decrypt(MessageModel model)
+        public MessageModel Decrypt(MessageModel model)
         {
             Log.Information("");
             Log.Information("Starting decryptation...");
@@ -66,7 +66,7 @@ namespace Encrypt.IO.API.Services
                     json = srDecrypt.ReadToEnd();
             }
             Log.Information($"Decrypted: {json}");
-            return json;
+            return MessageModel.Factor(json);
         }
     }
 }

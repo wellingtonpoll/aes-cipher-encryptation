@@ -1,6 +1,10 @@
 ﻿using Encrypt.IO.API.Configurations;
 using Encrypt.IO.API.Interfaces;
+using Encrypt.IO.API.Models.v1;
 using Encrypt.IO.API.Services;
+using Encrypt.IO.API.Validators;
+using FluentValidation;
+using FluentValidation.AspNetCore;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
@@ -24,8 +28,10 @@ namespace Encrypt.IO.API
 
             services.AddOptions();
             services.AddMvc()
+                .AddFluentValidation()
                 .SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
 
+            services.AddTransient<IValidator<MessageModel>, MessageValidator>();
             services.AddSingleton<IEncryptationService, EncryptationService>();
 
             services.ConfigureSwagger();

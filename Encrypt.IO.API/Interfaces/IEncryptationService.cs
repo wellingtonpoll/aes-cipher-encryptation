@@ -4,7 +4,7 @@ namespace Encrypt.IO.API.Interfaces
 {
     public interface IEncryptationService
     {
-        string Encrypt(MessageModel model);
-        string Decrypt(MessageModel model);
+        MessageModel Encrypt(MessageModel model);
+        MessageModel Decrypt(MessageModel model);
     }
 }

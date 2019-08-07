@@ -39,7 +39,7 @@ namespace Encrypt.IO.API.Controllers.v1
             try
             {
                 var json = this.encryptationService.Decrypt(model);
-                return Ok(MessageModel.Factor(json));
+                return Ok(json);
             }
             catch (Exception ex)
             {                
@@ -67,7 +67,7 @@ namespace Encrypt.IO.API.Controllers.v1
             try
             {
                 var jsonCrip = this.encryptationService.Encrypt(model);
-                return Ok(MessageModel.Factor(jsonCrip));
+                return Ok(jsonCrip);
             }
             catch (Exception ex)
             {
