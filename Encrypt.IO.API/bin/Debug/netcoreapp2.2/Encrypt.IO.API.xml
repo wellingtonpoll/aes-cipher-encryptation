@@ -1,0 +1,71 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Encrypt.IO.API</name>
+    </assembly>
+    <members>
+        <member name="T:Encrypt.IO.API.Controllers.v1.EncryptationController">
+            <summary>
+            AES cipher encryptation controller
+            By default CBC mode with Pkcs7 padding and 128-bit encryption key.
+            </summary>
+        </member>
+        <member name="M:Encrypt.IO.API.Controllers.v1.EncryptationController.Decrypt(Encrypt.IO.API.Models.v1.MessageModel)">
+            <summary>
+            AES cipher decryptation algorithms.
+            </summary>
+            <param name="model">Message model to decrypt.</param>
+            <response code="200">Decrypted message.</response>
+            <response code="400">Any problem with your request data.</response>
+            <response code="500">There was an internal problem, please try again..</response>
+        </member>
+        <member name="M:Encrypt.IO.API.Controllers.v1.EncryptationController.Encrypt(Encrypt.IO.API.Models.v1.MessageModel)">
+            <summary>
+            AES cipher encryptation algorithms.
+            </summary>
+            <param name="model">Message model to encrypt.</param>
+            <response code="200">Encrypted message.</response>
+            <response code="400">Any problem with your request data.</response>
+            <response code="500">There was an internal problem, please try again..</response>
+        </member>
+        <member name="T:Encrypt.IO.API.Models.v1.MessageModel">
+            <summary>
+            Model containing message to be encrypted or decrypted with encryption key 
+            </summary>
+        </member>
+        <member name="P:Encrypt.IO.API.Models.v1.MessageModel.Message">
+            <summary>
+            Message to be encrypted.
+            </summary>
+            <value>String</value>
+        </member>
+        <member name="P:Encrypt.IO.API.Models.v1.MessageModel.CryptoKey">
+            <summary>
+            Exactly 16 character encryption key.
+            </summary>
+            <value>string</value>
+        </member>
+        <member name="P:Encrypt.IO.API.Models.v1.MessageModel.CryptoIV">
+            <summary>
+            Exactly 16 character encryption random key.
+            </summary>
+            <value>string</value>
+        </member>
+        <member name="M:Encrypt.IO.API.Models.v1.MessageModel.Factor(System.String)">
+            <summary>
+            Constructor method
+            </summary>
+            <param name="message">Message</param>
+            <returns>Message model</returns>
+        </member>
+        <member name="M:Encrypt.IO.API.Models.v1.MessageModel.Factor(System.String,System.String,System.String)">
+            <summary>
+            Constructor method
+            </summary>
+            <param name="message">Message</param>
+            <param name="cryptoKey">Crypto key</param>
+            <param name="cryptoIV">Crypto IV</param>
+            <returns>Message model</returns>
+        </member>
+    </members>
+</doc>
