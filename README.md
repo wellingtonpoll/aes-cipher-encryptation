@@ -16,6 +16,10 @@ If you liked the project or if AES Cipher Encryptation helped you, please give a
 - You will need the latest VSCode and the latest .NET Core SDK.
 - **Please check if you have installed the same runtime version (SDK) described in global.json**
 - The latest SDK and tools can be downloaded from https://dot.net/core.
+To build the docker image on terminal/cmd find "Encrypt.IO.API" folder and execute the commands below:
+
+Build image `docker build -t aes-cipher-encryptation-api .`
+Run `docker run -d -p 5000:5000 --name aes-cipher-encryptation-api aes-cipher-encryptation-api`
 
 Also you can run the AES Cipher Encryptation in Visual Studio Code (Windows, Linux or MacOS).
 
