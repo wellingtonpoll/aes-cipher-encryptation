@@ -26,7 +26,6 @@ To know more about how to setup your enviroment visit the [Microsoft .NET Downlo
 - ASP.NET Core 2.2 (with .NET Core 2.2)
  - ASP.NET MVC Core 
  - ASP.NET WebApi Core
- - ASP.NET Identity Core
 - Docker
 - Serilog
 - Swagger UI
