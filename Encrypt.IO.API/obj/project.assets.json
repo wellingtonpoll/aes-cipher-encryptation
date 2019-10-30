@@ -12472,11 +12472,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/wellington/Documents/aes-cipher-encryptation/Encrypt.IO.API/Encrypt.IO.API.csproj",
+      "projectUniqueName": "/home/wellington/Mundi Bank/aes-cipher-encryptation/Encrypt.IO.API/Encrypt.IO.API.csproj",
       "projectName": "Encrypt.IO.API",
-      "projectPath": "/home/wellington/Documents/aes-cipher-encryptation/Encrypt.IO.API/Encrypt.IO.API.csproj",
+      "projectPath": "/home/wellington/Mundi Bank/aes-cipher-encryptation/Encrypt.IO.API/Encrypt.IO.API.csproj",
       "packagesPath": "/home/wellington/.nuget/packages/",
-      "outputPath": "/home/wellington/Documents/aes-cipher-encryptation/Encrypt.IO.API/obj/",
+      "outputPath": "/home/wellington/Mundi Bank/aes-cipher-encryptation/Encrypt.IO.API/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/share/dotnet/sdk/NuGetFallbackFolder"
