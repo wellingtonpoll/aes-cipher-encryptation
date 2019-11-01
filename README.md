@@ -20,7 +20,7 @@ To build the docker image on terminal/cmd find "Encrypt.IO.API" folder and execu
 
 Build image: ```docker build -t aes-cipher-encryptation-api .```
 
-Run container: ```docker run -d -p 5000:5000 --name aes-cipher-encryptation-api aes-cipher-encryptation-api```
+Run container: ```docker run -e ASPNETCORE_ENVIRONMENT=production -p 80:80 aes-cipher-encryptation-api```
 
 Also you can run the AES Cipher Encryptation in Visual Studio Code (Windows, Linux or MacOS).
 
